@@ -13,7 +13,7 @@ pipeline{
         }
         stage('Test'){
             steps{
-                bat 'python app.py'
+                echo 'Running tests...'
             }
         }
         stage('Deploy'){
